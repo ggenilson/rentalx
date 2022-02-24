@@ -1,7 +1,7 @@
 import { Category } from "../model/Category";
 
 interface ICreateCategoryDTO {
-  name: String;
+  name: string;
   description: string;
 }
 
