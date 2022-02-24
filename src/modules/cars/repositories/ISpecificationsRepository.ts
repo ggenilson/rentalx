@@ -1,9 +1,8 @@
 import { Specification } from "../model/Specification";
-import { ICreateCategoryDTO } from "./ICategoriesRepository";
 
 interface ISpecificationsDTO {
   name: string;
-  description: String;
+  description: string;
 }
 
 interface ISpecificationsRepository {
